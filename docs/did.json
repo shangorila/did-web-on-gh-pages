@@ -1,0 +1,23 @@
+{
+  "@context": "https://www.w3.org/ns/did/v1",
+  "id": "did:web:shangorila.github.io:did-web-on-gh-pages",
+  "verificationMethod": [
+    {
+      "id": "did:web:shangorila.github.io:did-web-on-gh-pages#key1",
+      "type": "EcdsaSecp256k1VerificationKey2019",
+      "controller": "did:web:shangorila.github.io:did-web-on-gh-pages",
+      "publicKeyJwk": {
+        "kty": "EC",
+        "x": "XRme2kL1LGPEBz_WDzKz2dqpJ6bdtQRe2toro6hZ7RA",
+        "y": "pzyqXi3ZhFupEd9aGfodumgQs4DMl_w_U29iBMVIi9I",
+        "crv": "secp256k1"
+      }
+    }
+  ],
+  "authentication": [
+    "did:web:shangorila.github.io:did-web-on-gh-pages#key1"
+  ],
+  "assertionMethod": [
+    "did:web:shangorila.github.io:did-web-on-gh-pages#key1"
+  ]
+}
